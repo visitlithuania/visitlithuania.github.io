@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background: url(http://www.tourpoint.lv/images/tours/multi-day-lithuania-vilnius-city-break-159-1403.jpg) no-repeat;
+    background-size: cover;
+    font-family: helvetica;
+}
+h1 {
+    color:white;
+    font-size: 100px;
+    font-family: helvetica;
+    padding: 100px 10px 0px 10px;
+}
+h2 {
+    color:white;
+    font-size: 40px;
+    font-family: helvetica;
+    padding: 0px 10px 0px 10px;
+}
+.img-circle {
+    margin: 10px 60px 0px 60px;
+    border: 7px solid white;
+    border-radius: 50%;
+}
