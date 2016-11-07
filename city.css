@@ -2,3 +2,9 @@ h1 {
     font-family: 'helvetica';
     font-size: 100px;
 }
+body {
+    text-align: center;
+    background: url(http://turizmobaze.lt/wp-content/uploads/2013/06/vilnius-national-geo.jpg) no-repeat;
+    background-size: cover;
+    font-family: helvetica;
+}
