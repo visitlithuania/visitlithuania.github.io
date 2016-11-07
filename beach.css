@@ -1,4 +1,9 @@
 h1 {
     font-family: 'helvetica';
     font-size: 100px;
+    color: white;
+}
+body {
+ background: url(https://s-media-cache-ak0.pinimg.com/originals/8f/ac/81/8fac815e28f74b0d73f5ef6e1bdd1592.jpg) no-repeat;
+    background-size: cover;
 }
