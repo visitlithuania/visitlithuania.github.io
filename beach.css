@@ -1,9 +1,24 @@
 h1 {
-    font-family: 'helvetica';
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 100px;
     color: white;
+    text-align: center;
+    padding: 160px 10px 0px 0px;
+    margin-bottom: 0em;
 }
 body {
  background: url(https://s-media-cache-ak0.pinimg.com/originals/8f/ac/81/8fac815e28f74b0d73f5ef6e1bdd1592.jpg) no-repeat;
     background-size: cover;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 0px 120px 0px 120px;
+    margin-top:0em;
+    background: rgba(0,0,0,1);
+    background: linear-gradient(bottom, rgba(0,0,0,.5), rgba(0,0,0,.2));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,.5), rgba(0,0,0,.2));
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,.5), rgba(0,0,0,.2));
 }
