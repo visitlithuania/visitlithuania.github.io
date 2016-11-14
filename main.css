@@ -9,12 +9,14 @@ h1 {
     font-size: 100px;
     font-family: helvetica;
     padding: 100px 10px 0px 10px;
+    margin-bottom: 0em;
 }
 h2 {
     color:white;
     font-size: 40px;
     font-family: helvetica;
     padding: 0px 10px 0px 10px;
+    margin-top:1em;
 }
 .img-circle {
     margin: 10px 60px 0px 60px;
