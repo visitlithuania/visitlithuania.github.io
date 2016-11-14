@@ -1,5 +1,5 @@
 h1 {
-    font-family: 'helvetica';
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 100px;
     color: white;
     text-align: center;
@@ -11,10 +11,10 @@ body {
     background-size: cover;
 }
 p {
-    font-family: 'helvetica';
-    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
     color: white;
     text-align: center;
-    padding: 0px 180px 0px 180px;
+    padding: 0px 120px 0px 120px;
     margin-top:0em;
 }
