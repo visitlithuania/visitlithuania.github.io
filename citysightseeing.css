@@ -7,8 +7,9 @@ h1 {
     margin-bottom: 0em;
 }
 body {
- background: url(http://i.imgur.com/yNF8qcM.jpg) no-repeat;
+    background: url(http://i.imgur.com/yNF8qcM.jpg) no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 p {
     font-family: 'Open Sans', sans-serif;
