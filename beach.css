@@ -1,3 +1,4 @@
+/*----------- Main header -------------*/
 h1 {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 100px;
@@ -6,6 +7,7 @@ h1 {
     padding: 160px 10px 0px 0px;
     margin-bottom: 0em;
 }
+/*----------- Container -------------*/
 #container {
     background: url(http://i.imgur.com/x6g4Wy9.jpg) no-repeat;
     background-size: cover;
@@ -14,6 +16,7 @@ h1 {
     margin-bottom: 100px;
     padding: 0px 0px 0px 0px;
 }
+/*----------- Content -------------*/
 div.transbox {
   margin: 10px 120px 100px 120px;
   background-color: #ffffff;
