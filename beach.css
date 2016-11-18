@@ -16,6 +16,15 @@ h1 {
     margin-bottom: 100px;
     padding: 0px 0px 0px 0px;
 }
+
+.container-fluid {
+    position: fixed;
+    left: 0;
+    top: 0; 
+    width: 100%;
+    background-color:#222222;
+    z-index: 2;
+}
 /*----------- Content -------------*/
 div.transbox {
   margin: 10px 120px 200px 120px;
@@ -55,9 +64,18 @@ span.glyphicon {
     color: grey;
     text-align: center;
 }
+
+span.glyphicon:hover {
+     background-color: #c2c2c2;
+     color: #fff;
+     border-radius: 25px;
+     cursor: pointer;
+}
+
 .btn-group {
     padding: 20px 95px 20px 100px;
 }
+
 /*-----------footer-------------*/
 footer {
   position: fixed;
