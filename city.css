@@ -60,6 +60,7 @@ span.glyphicon:hover {
      background-color: #c2c2c2;
      color: #fff;
      border-radius: 25px;
+     cursor: pointer;
 } 
 
 .btn-group {
