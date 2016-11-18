@@ -1,23 +1,46 @@
+/*----------- Container -------------*/
+#container {
+    background: url(http://www.tourpoint.lv/images/tours/multi-day-lithuania-vilnius-city-break-159-1403.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+    margin-bottom: 100px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
 body {
     text-align: center;
     background: url(http://www.tourpoint.lv/images/tours/multi-day-lithuania-vilnius-city-break-159-1403.jpg) no-repeat;
     background-size: cover;
-    font-family: helvetica;
 }
 h1 {
     color:white;
     font-size: 100px;
-    font-family: helvetica;
+    font-family: 'Julius Sans One', sans-serif;
     padding: 100px 10px 0px 10px;
+    margin-bottom: 0em;
 }
 h2 {
     color:white;
     font-size: 40px;
-    font-family: helvetica;
+    font-family: 'Julius Sans One', sans-serif;
     padding: 0px 10px 0px 10px;
+    margin-top:1em;
 }
 .img-circle {
-    margin: 10px 60px 0px 60px;
-    border: 7px solid white;
+    margin: 10px 60px 200px 60px;
+    border: 4px solid white;
     border-radius: 50%;
+}
+/*-----------footer-------------*/
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #333333;
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+  color: gainsboro;
+  z-index: -1;
 }
