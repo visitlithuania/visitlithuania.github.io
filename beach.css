@@ -43,21 +43,13 @@ div.transbox {
   background: white;
   opacity: 0.9;
   color:black;
-  padding: 40px 30px 0px 30px;
+  padding: 40px 30px 45px 30px;
   margin: 50px 0px 0px 0px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
 }
-.content2 {
-  width: 100%;
-  background: white;
-  opacity: 0.9;
-  color:black;
-  padding: 0px 30px 40px 30px;
-  margin: 0px 0px 0px 0px;
- text-align: center;
-}
+
 span.glyphicon {
     font-size: 70px;
     padding: 20px 100px 20px 100px;
