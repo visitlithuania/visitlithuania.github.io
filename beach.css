@@ -43,11 +43,32 @@ div.transbox {
   background: white;
   opacity: 0.9;
   color:black;
-  padding: 40px 30px 45px 30px;
+  padding: ;
   margin: 50px 0px 0px 0px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
+}
+
+#to-do{
+    font-size: 20px;
+    padding:inherit;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+#food{
+    font-size: 20px;
+    padding:inherit;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+#bars{
+    font-size: 20px;
+    padding:inherit;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;  
 }
 
 span.glyphicon {
