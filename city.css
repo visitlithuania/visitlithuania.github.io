@@ -127,14 +127,13 @@ section::after {
   background: white;
   opacity: 0.9;
   color:black;
-  padding:10px 0px 50px 0px;
+  padding:40px 0px 40px 0px;
   margin: 400px 0px 0px 0px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   z-index: 1;
 }
-
 
 #to-do{
     font-size: 15px;
