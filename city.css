@@ -50,6 +50,31 @@ div.transbox {
   font-size: 20px;
 }
 
+#to-do{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif; 
+    color: black;
+    padding: 10px 0px 10px 0px;
+    font-weight: 600;
+}
+
+#food{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    padding: 10px 0px 10px 0px;
+    font-weight: 600;
+}
+
+#bars{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    padding: 10px 0px 10px 0px;
+    font-weight: 600;
+}
+
+
 span.glyphicon {
     font-size: 70px;
     padding: 20px 100px 20px 100px;
