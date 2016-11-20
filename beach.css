@@ -121,13 +121,17 @@ section::after {
 	}
 }
 /*--------End of ScrollDown-----*/
+#contact {
+    margin: 200px 0px 0px 120px;
+}
+
 .content1 {
   width: 100%;
   background: white;
   opacity: 0.9;
   color:black;
   padding:40px 0px 40px 0px;
-  margin: 400px 0px 0px 0px;
+  margin: 100px 0px 0px 0px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
