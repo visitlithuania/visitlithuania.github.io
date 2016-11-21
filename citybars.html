@@ -12,12 +12,18 @@
 <!----CSS---->
     <link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
     <link rel="stylesheet" href="citybars.css">
+    <link rel="icon" href="http://i.imgur.com/VDYL7dz.png">
     
 <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     
 <!-- Latest compiled Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
     
     <title>Visit Lithuania: City Bars</title> 
 </head>
@@ -36,6 +42,17 @@
     </ul>
   </div>
 </nav>
+    
+<!-------Back Button ---------->
+<div>
+    <a href id="back" onclick="goBack()">&#8592;</a>
+    
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+    </div>
     
 <!--------- Main header --------->
 <h1>Bars</h1>
@@ -60,7 +77,7 @@
 <div class="parent">
   <div class="content">
     <h2>Alchemikas</h2> 
-    <p>If you are more of a cocktail kind of person, we’ve got something for you too! The bar ‘Alchemist’ was announced the city’s best cocktail bar by the prestigious VMG Culinary Awards. With a vast collection of rare spirits from all over the world, this coctail lab will leave you'll be spoilt for choice!</p>
+    <p>If you are more of a cocktail kind of person, we’ve got something for you too! The bar ‘Alchemist’ was announced the city’s best cocktail bar by the prestigious VMG Culinary Awards. With a vast collection of rare spirits from all over the world, this coctail lab will leave you'll be spoilt for choice</p>
     <div class="btn-group" role="group">
       <a href="http://www.vilnius-tourism.lt/en/what-to-do/nightlife/clubs-bars/alchemikas">
       <button type="button" class="btn btn-default">Visit Website</button>
