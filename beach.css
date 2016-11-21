@@ -181,6 +181,19 @@ span.glyphicon:hover {
     padding: 20px 95px 20px 100px;
 }
 
+#back {
+    width: 35%;
+    font-family:'Open Sans', sans-serif;
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+#back:hover {
+    opacity: 0.6;
+}
+
 /*-----------footer-------------*/
 footer {
   position: fixed;
