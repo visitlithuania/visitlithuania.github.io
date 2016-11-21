@@ -1,15 +1,25 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Visit Lithuania</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<!----Fonts----> 
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    
+<!----CSS------->
     <link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
     <link rel="stylesheet" href="city.css">
-    <!-- jQuery library -->
+    
+<!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Latest compiled Bootstrap JavaScript -->
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Latest compiled Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+    <title>Visit Lithuania: The City</title>   
 </head>
 
 <body>
@@ -27,6 +37,16 @@
   </div>
 </nav>
     
+<div>
+    <a href id="back" onclick="goBack()">&#8592;</a>
+ </div>
+    
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+    
 <!--------- Main header --------->
 <h1>Vilnius</h1>
     
@@ -35,17 +55,49 @@
     <p>Vilnius is the capital city of Lithuania, known worldwide for the beauty of the Old Town architecture which is so beautiful that Napoleon has been documented wishing to take St Anne's Church, back to Paris, on the palm of his hand.</p>
   </div>
     
+ <div id="section01" class="demo">
+	<a href="#section02"><span></span><span></span><span></span></a>
+</div>
+    
+<!-- Map -->
+         <section id="contact" class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d451671.11201466696!2d24.989482178253272!3d54.68069045818581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd93fb5c6408f5%3A0x400d18c70e9dc40!2sVilnius%2C+Lithuania!5e0!3m2!1sen!2suk!4v1479675162245" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+
+    
+<div id="section02">    
  <div class="content1">
       <p id="recommendation">Our personal recommendations</p>
       <div class="glyph-icons"></div>
-      <a href="beachthingstodo.html"><span class="glyphicon glyphicon-picture" aria-hidden="true" class= "visible-lg-inline"><p id="to-do">Things to do</p></span></a>
-      <a href="beachfood.html"><span class="glyphicon glyphicon-cutlery" aria-hidden="true" class= "visible-lg-inline"><p id="food">Food</p></span></a>
-      <a href="beachbars.html"><span class="glyphicon glyphicon-glass" aria-hidden="true" "visible-lg-inline"><p id="bars">Bars</p></span></a>
+      <a href="citythingstodo.html"><span class="glyphicon glyphicon-picture" aria-hidden="true" class= "visible-lg-inline"><p id="to-do">Things to do</p></span></a>
+      <a href="cityfood.html"><span class="glyphicon glyphicon-cutlery" aria-hidden="true" class= "visible-lg-inline"><p id="food">Food</p></span></a>
+      <a href="citybars.html"><span class="glyphicon glyphicon-glass" aria-hidden="true" "visible-lg-inline"><p id="bars">Bars</p></span></a>
     </div>
-  </div>
+    </div>
+    </div>
+    
+
+<script>
+     $('a[href*="#"]:not([href="#"])').click(function() {
+  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  } 
+});
+    </script>
+  
+    
 <!--------- Footer --------->
 <footer>
   <p>Copyright © Ruta and Rachel</p>
 </footer>
-</body>
+    </body>
+</html>
+
       
