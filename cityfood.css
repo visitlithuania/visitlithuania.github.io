@@ -26,6 +26,21 @@ h1 {
     z-index: 2;
     font-family: 'Open Sans', sans-serif;
 }
+
+/*---------Back-Button-----------*/
+#back {
+    width: 35%;
+    font-family:'Open Sans', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+#back:hover {
+    opacity: 0.6;
+}
 /*----------- Content -------------*/
  .parent {
   display: flex;
