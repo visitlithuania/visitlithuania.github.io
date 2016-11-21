@@ -8,6 +8,7 @@
 <!----Fonts---->
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     
 <!----CSS---->
     <link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
@@ -107,6 +108,25 @@ function goBack() {
   <div class="picture3"></div>
 </div>
 </div>
+        
+ <!-------Back to top Button ---------->
+<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+    
+ <script>    
+    $(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
+    });
+        
+    $('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+});
+    </script>   
     
 <!--------- Footer --------->
 <footer>
