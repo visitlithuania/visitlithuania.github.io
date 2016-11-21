@@ -12,12 +12,18 @@
 <!----CSS---->    
     <link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
     <link rel="stylesheet" href="beachbars.css">
+    <link rel="icon" href="http://i.imgur.com/VDYL7dz.png">
     
 <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     
 <!-- Latest compiled Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
     
     <title>Visit Lithuania: Beach Bars</title>
 </head>
@@ -36,7 +42,17 @@
     </ul>
   </div>
 </nav>
+
+<!-------Back Button ---------->
+<div>
+    <a href id="back" onclick="goBack()">&#8592;</a>
     
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+    </div>
 <!--------- Main header --------->
 <h1>Bars</h1>
     
@@ -63,7 +79,7 @@
 <div class="parent">
   <div class="content">
     <h2>Bo House</h2>
-    <p>This chilled out funky place is perfect for when you want to grab a bite. It also has a great atmosphere for drinks in the evening, especially when the basketball (Lithuania's second religion) is on! </p>
+    <p>This chilled out funky place is perfect for when you want to grab a bite. It also has a great atmosphere for drinks in the evening, especially when the basketball (Lithuania's second religion) is on</p>
     <div class="btn-group" role="group">
       <a href="https://www.facebook.com/bohousenida/">
       <button type="button" class="btn btn-default">Facebook</button>
@@ -76,15 +92,7 @@
 <div class="parent">
   <div class="content">
     <h2>Beach Bars</h2>
-    <p>Next to a beach voleyball court, with many colourful beanbags and chilled out tunes, these bars are a place to watch the sunset and dance until the dawn. Walk down the beach to find them!</p>
-    <div class="btn-group" role="group">
-      <a href="https://www.facebook.com/BeachBarNida/">
-      <button type="button" class="btn btn-default">Facebook</button>
-      </a>
-      <a href="mailto:arnas@forcemajor.lt">
-      <button type="button" class="btn btn-default">Email</button>
-      </a>
-      </div>
+    <p>Next to a beach voleyball court, with many colourful beanbags and chilled out tunes, these bars are a place to watch the sunset and dance until the dawn. Walk down the beach to find them</p>
   </div>
   <div class="picture3"></div>
 </div>

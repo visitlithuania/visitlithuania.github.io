@@ -12,12 +12,18 @@
 <!----CSS------->
     <link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
     <link rel="stylesheet" href="city.css">
+    <link rel="icon" href="http://i.imgur.com/VDYL7dz.png">
     
 <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 <!-- Latest compiled Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
     
     <title>Visit Lithuania: The City</title>   
 </head>
@@ -37,22 +43,15 @@
   </div>
 </nav>
     
-<div>
-    <a href id="back" onclick="goBack()">&#8592;</a>
- </div>
-    
-<script>
-function goBack() {
-    window.history.back();
-}
-</script>
+<!-------Back Button ---------->
+    <a href="landingpage.html" id="back">&#8592;</a>
     
 <!--------- Main header --------->
 <h1>Vilnius</h1>
     
 <!-------- Content -------------->
   <div class="transbox">
-    <p>Vilnius is the capital city of Lithuania, known worldwide for the beauty of the Old Town architecture which is so beautiful that Napoleon has been documented wishing to take St Anne's Church, back to Paris, on the palm of his hand.</p>
+    <p>Vilnius is the capital city of Lithuania, known worldwide for the beauty of the Old Town architecture which is so beautiful that Napoleon has been documented wishing to take St Anne's Church, back to Paris, on the palm of his hand</p>
   </div>
     
  <div id="section01" class="demo">
@@ -60,9 +59,11 @@ function goBack() {
 </div>
     
 <!-- Map -->
-         <section id="contact" class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d451671.11201466696!2d24.989482178253272!3d54.68069045818581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd93fb5c6408f5%3A0x400d18c70e9dc40!2sVilnius%2C+Lithuania!5e0!3m2!1sen!2suk!4v1479675162245" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </section>
+<div id="map">
+            <p id="gallery">Map</p>
+            <iframe class="map-img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d451671.11201466696!2d24.989482178253272!3d54.68069045818581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd93fb5c6408f5%3A0x400d18c70e9dc40!2sVilnius%2C+Lithuania!5e0!3m2!1sen!2suk!4v1479675162245" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+         
+    </div>
 
     
 <div id="section02">    

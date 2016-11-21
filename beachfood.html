@@ -12,12 +12,18 @@
 <!-----CSS----->   
     <link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
     <link rel="stylesheet" href="beachfood.css">
+    <link rel="icon" href="http://i.imgur.com/VDYL7dz.png">
     
 <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     
 <!-- Latest compiled Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
     
     <title>Visit Lithuania: Beach Food</title>
 </head>
@@ -36,6 +42,17 @@
     </ul>
   </div>
 </nav>
+
+ <!-------Back Button ---------->
+<div>
+    <a href id="back" onclick="goBack()">&#8592;</a>
+    
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+    </div>
     
 <!--------- Main header --------->
 <h1>Food</h1>
@@ -44,12 +61,7 @@
 <div class="parent">
   <div class="content">
     <h2>Smoked Fish</h2>
-    <p>Nida, being a seaside town, is all about local seafood. One of the most popular local dishes is smoked fish, usually sold to 'take away'an not one to be missed.</p>
-    <div class="btn-group" role="group">
-      <a href="https://www.facebook.com/RukytosZuvysTikPasJona/">
-      <button type="button" class="btn btn-default">Facebook</button>
-      </a>
-    </div>
+    <p>Nida, being a seaside town, is all about local seafood. One of the most popular local dishes is smoked fish, usually sold to 'take away'an not one to be missed</p>
   </div>
   <div class="picture1"></div>
 </div>
@@ -57,7 +69,7 @@
 <div class="parent">
   <div class="content">
     <h2>Nidus</h2>
-    <p>A relaxed yet elegant and stylish place to eat at any time of the day, featuring an outside grill to prepare fresh local seafood, giving you a chance to watch the chef work their magic </p>
+    <p>A relaxed yet elegant and stylish place to eat at any time of the day, featuring an outside grill to prepare fresh local seafood, giving you a chance to watch the chef work their magic</p>
     <div class="btn-group" role="group">
       <a href="http://www.nidus.lt/lt/restoranas_/">
       <button type="button" class="btn btn-default">Visit Website</button>
@@ -73,7 +85,7 @@
 <div class="parent">
   <div class="content">
     <h2>Nerija</h2>
-    <p>If you are up for a fine dining experience, Nerija is the place to be. Excelent service, immaculate presentation and an extraordinary combination of flavours is guaranteed every time.</p>
+    <p>If you are up for a fine dining experience, Nerija is the place to be. Excelent service, immaculate presentation and an extraordinary combination of flavours is guaranteed every time</p>
     <div class="btn-group" role="group">
       <a href="http://www.neringahotels.lt/restaurant_en.html">
       <button type="button" class="btn btn-default">Visit Website</button>
